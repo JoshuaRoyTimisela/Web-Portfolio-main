@@ -1,0 +1,191 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title> Joshua Roy T </title>
+    <!-- Bootstrap CSS -->
+    <link
+      href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/css/bootstrap.min.css"
+      rel="stylesheet"
+    />
+    <link rel="stylesheet" href="style.css" />
+  </head>
+  <body>
+    <!-- Navbar  -->
+    <nav class="navbar navbar-expand-lg navbar-dark bg-dark sticky-top">
+      <div class="container">
+        <a class="navbar-brand" href="#"> 
+          <u> My Portfolio</u> 
+        </a> 
+
+        <!-- Tombol toggle untuk responsive mobile -->
+        <button
+          class="navbar-toggler"
+          type="button"
+          data-bs-toggle="collapse"
+          data-bs-target="#navbarContent"
+          aria-controls="navbarContent"
+          aria-expanded="false"
+          aria-label="Toggle navigation"
+        >
+          <span class="navbar-toggler-icon"></span>
+        </button>
+
+        <div class="collapse navbar-collapse" id="navbarContent">
+          <ul class="navbar-nav ms-auto">
+            <li class="nav-item">
+              <a class="nav-link active" aria-current="page" href="#"> Home </a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="#heroes"> Portfolio</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="#about"> About Me </a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="#contact"> Contact </a>
+            </li>
+          </ul>
+        </div>
+      </div>
+    </nav>
+
+    <!-- Hero Section -->
+    <section class="hero-section">
+      <div class="container">
+        <h1 class="display-3 mb-4"> Hi, I'm Jo. </h1>
+        <p class="lead">
+            Information Systems Student | IT Enthusiast | Aspiring AI Engineer
+        </p>
+        <p class="lead"> Showcasing my projects, experience, and journey in technology </p>
+
+      </div>
+    </section>
+
+    <!-- Projects -->
+    <section class="py-5" id="heroes">
+      <div class="container">
+        <h2 class="section-title text-center">My Projects</h2>
+        <p class="text-center mb-5">Here are some of my featured works.</p>
+        <div class="row g-4">
+          <div class="col-md-4">
+            <div class="card h-100">
+              <img
+                src="images/Web_Spk.jpeg"
+                class="card-img-top"
+                alt="Project 1"
+              />
+              <div class="card-body">
+                <h5 class="card-title"> FoodDelivery SPK </h5>
+                <p class="card-text">
+                  A web-based decision support system for selecting the best online
+                  food delivery service using the Simple Additive Weighting (SAW) method, 
+                  based on key criteria such as price, promotions, delivery costs, speed, 
+                  merchant availability, and ease of use.
+                </p>
+              </div>
+            </div>
+          </div>
+          <div class="col-md-4">
+            <div class="card h-100">
+              <img src="images/Web_Maribayar.jpeg" class="card-img-top" alt="Project 2" />
+              <div class="card-body">
+                <h5 class="card-title"> MariBayar </h5>
+                <p class="card-text">
+                  A web-based electricity payment information system 
+                  designed to simplify postpaid electricity management.
+                  The system allows users to input electricity usage, 
+                  view their bills, and manage payments in a simple and transparent way.
+                </p>
+              </div>
+            </div>
+          </div>
+          <div class="col-md-4">
+            <div class="card h-100">
+              <img
+                src="images/Kalkulator.jpeg"
+                class="card-img-top"
+                alt="Project 3"
+              />
+              <div class="card-body">
+                <h5 class="card-title"> Python Discount Calculator </h5>
+                <p class="card-text">
+                  A simple Python-based calculator designed to calculate the final price
+                  of products after applying discounts. The application allows users to enter 
+                  the original price, discount percentage, and quantity to calculate the total
+                  price easily and accurately.
+                </p>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+   
+    <!-- About Section -->
+    <section class="py-5 bg-light" id="about">
+      <div class="container">
+        <h2 class="section-title text-center">About Me</h2>
+        <p class="text-center lead">
+          I am Joshua Roy Timisela, an Information Systems student at Universitas Bina Sarana Informatika (UBSI) with a strong interest in technology, programming, databases, and data analysis. 
+          I have gained experience through academic projects, an internship at Bank Indonesia, and professional experience as a CMS Developer at PT Asabri (Persero). These experiences have helped me develop my technical, analytical, communication, and problem-solving skills.
+          I enjoy learning new technologies and building practical projects that can solve real-world problems. I am currently interested in developing my skills further in Artificial Intelligence, data, and software development.
+          I am a motivated and adaptable person who enjoys learning, working with others, and taking on new challenges. My goal is to continue growing in the technology field and contribute to meaningful projects.
+        </p>
+      </div>
+    </section>
+
+
+<!-- Contact Section -->
+    <section class="contact-section" id="contact">
+      <div class="container text-center">
+        <h2 class="section-title"> Let's Collaborate!</h2>
+
+        <p class="contact-description">
+          I am always open to discussing technology,
+          system development opportunities, and collaboration possibilities.
+        </p>
+
+        <div class="contact-buttons">
+          <a
+            href="mailto:joshuaroy1603@gmail.com"
+            class="contact-btn email-btn"
+          >
+            📧 Email Saya
+          </a>
+
+          <a
+            href="https://wa.me/6287879216194"
+            target="_blank"
+            class="contact-btn whatsapp-btn"
+          >
+            📱 WhatsApp
+          </a>
+
+          <a
+            href="https://www.linkedin.com/in/joshua-roy-timisela"
+            target="_blank"
+            class="contact-btn linkedin-btn"
+          >
+            🔗 LinkedIn
+          </a>
+
+        </div>
+      </div>
+    </section>
+
+
+    <!-- Footer -->
+    <footer>
+      <div class="container">
+        <p>&copy; 2026 My Portfolio | Created By Joshua Roy Timisela </p>
+      </div>
+    </footer>
+
+    <!-- Bootstrap JS -->
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/js/bootstrap.bundle.min.js  "></script>
+    
+  </body>
+</html>
